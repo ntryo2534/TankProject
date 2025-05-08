@@ -1,0 +1,777 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.48f1 (170d2541580d) revision 1510693'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ja' Physical Memory: 32478 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.48f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/ntryo/github/Untiy6_TankProject/TankProject
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+65425
+-job-worker-count
+13
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/ntryo/github/Untiy6_TankProject/TankProject
+C:/Users/ntryo/github/Untiy6_TankProject/TankProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [47652]  Target information:
+
+Player connection [47652]  * "[IP] 192.168.1.186 [Port] 0 [Flags] 2 [Guid] 2388767631 [EditorId] 2388767631 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J3JFEHQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [47652] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [47652] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 13
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.48f1 (170d2541580d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.48f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ntryo/github/Untiy6_TankProject/TankProject/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 SUPER (ID=0x2702)
+    Vendor:   NVIDIA
+    VRAM:     16047 MB
+    Driver:   32.0.15.7270
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.48f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.48f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.48f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.48f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.48f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002071 seconds.
+- Loaded All Assemblies, in  0.247 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.241 seconds
+Domain Reload Profiling: 487ms
+	BeginReloadAssembly (87ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (100ms)
+		LoadAssemblies (84ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (88ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (241ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (214ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (105ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.496 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.477 seconds
+Domain Reload Profiling: 971ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (220ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (118ms)
+			BuildScriptInfoCaches (32ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (477ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (338ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (224ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 250 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6081 unused Assets / (5.9 MB). Loaded Objects now: 6792.
+Memory consumption went from 191.7 MB to 185.8 MB.
+Total: 9.159400 ms (FindLiveObjects: 0.852400 ms CreateObjectMapping: 0.497900 ms MarkObjects: 5.413600 ms  DeleteObjects: 2.394100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 681777.000196 seconds.
+  path: Assets/_Tanks/Art/Models/Environment/Grass 02.FBX
+  artifactKey: Guid(6c891333969856846925f3ba5ae54999) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Models/Environment/Grass 02.FBX using Guid(6c891333969856846925f3ba5ae54999) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7cebfbb02994477464cb7b543807083') in 0.1315238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/_Tanks/Art/Models/Environment/Crater02.FBX
+  artifactKey: Guid(66a3547c47831f44da94c6bd726715b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Models/Environment/Crater02.FBX using Guid(66a3547c47831f44da94c6bd726715b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52b123cb41016c63d118911659972882') in 0.0154926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/_Tanks/Art/Models/Environment/MoonBuilding02.FBX
+  artifactKey: Guid(699a3bcfb11461045a9ef6b14cd6796c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Models/Environment/MoonBuilding02.FBX using Guid(699a3bcfb11461045a9ef6b14cd6796c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5fd111a5d6760f83ad5e3736e854216') in 0.0183362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Tanks/Art/Models/Environment/RadarSphere.FBX
+  artifactKey: Guid(90bf84fcb963f4647a128f298f55f5ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Models/Environment/RadarSphere.FBX using Guid(90bf84fcb963f4647a128f298f55f5ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1bcad855b2b793e1e7bce959690cda0') in 0.0078297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Tanks/Art/Models/Environment/PalmTree03.FBX
+  artifactKey: Guid(f91c31913a6357047a9f52657be4ab79) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Models/Environment/PalmTree03.FBX using Guid(f91c31913a6357047a9f52657be4ab79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '681c738bc62db8601fd20bc07c39ca5a') in 0.0122863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Tanks/Scripts/PowerUp/PowerUp.cs
+  artifactKey: Guid(b8e2506db19762a4bb229b6473091302) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Scripts/PowerUp/PowerUp.cs using Guid(b8e2506db19762a4bb229b6473091302) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee746b7ae53513a2f22fbe7c1de109a3') in 0.0029377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Tanks/Art/Materials/Environment/OilDrums_3.mat
+  artifactKey: Guid(b3a1f2f69b4c3a84cba5446e31e87c20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Materials/Environment/OilDrums_3.mat using Guid(b3a1f2f69b4c3a84cba5446e31e87c20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63a6e7c1c00c2d90b7dc3bbf817a4346') in 0.0199716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Tanks/Art/Textures/Gradient Grey.png
+  artifactKey: Guid(5f0e21a92b1383e4c8580a2098a8158a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Textures/Gradient Grey.png using Guid(5f0e21a92b1383e4c8580a2098a8158a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6a157a0ce54a1b87474d7cc778a1399') in 0.0327429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Tanks/Art/Models/Environment/Hippo.FBX
+  artifactKey: Guid(538daa67d547de04a82a663dbdf06efc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Models/Environment/Hippo.FBX using Guid(538daa67d547de04a82a663dbdf06efc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b49f7da86a5c3f41fe13028c4aaef5f4') in 0.0077676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Tanks/Art/Sprites/UI/UI_Icon_Jump.png
+  artifactKey: Guid(751aa1b6637101946b2fdbb7aa27d6ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Sprites/UI/UI_Icon_Jump.png using Guid(751aa1b6637101946b2fdbb7aa27d6ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c40a3692f83c6bfee8542ac2e8722c11') in 0.017611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/_Tanks/Art/Models/Environment/Rocks02.fbx
+  artifactKey: Guid(8f90bdc8aeb4bad4db0cb091100a44f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Models/Environment/Rocks02.fbx using Guid(8f90bdc8aeb4bad4db0cb091100a44f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '550bbe30e838d3d1a1fafba4ebb48d54') in 0.0059286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Tanks/Art/Models/Tanks/Tank_RocketShip_Model.FBX
+  artifactKey: Guid(41ece72e0713db145a64901e41780965) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Models/Tanks/Tank_RocketShip_Model.FBX using Guid(41ece72e0713db145a64901e41780965) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '147641a817761e52a34cac3a8c3ea4cb') in 0.009831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Tanks/Art/Textures/UI/HeaderBig.png
+  artifactKey: Guid(3c1a7c45fa37bdd419bdd9bd43cc518b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Textures/UI/HeaderBig.png using Guid(3c1a7c45fa37bdd419bdd9bd43cc518b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f74da8f7e50083e4008676621e6feeea') in 0.0084713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Tanks/Art/Models/Environment/Refinery.fbx
+  artifactKey: Guid(6e4d8dfe03882c54380948659f725233) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Models/Environment/Refinery.fbx using Guid(6e4d8dfe03882c54380948659f725233) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2890a525dbbbe417d7f30152dfcaf8ad') in 0.0082468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Tanks/Art/Models/Tanks/Tank_Monster_Model.FBX
+  artifactKey: Guid(bc5be89d3fb7f6342a6fa663e1e9800d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Models/Tanks/Tank_Monster_Model.FBX using Guid(bc5be89d3fb7f6342a6fa663e1e9800d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64e085677ee5bee9db0c13e543c1ee9a') in 0.0158562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Tanks/Art/Models/PowerUps/Star.FBX
+  artifactKey: Guid(13c7de4baddb90a488d0a9f88e32e29c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Models/PowerUps/Star.FBX using Guid(13c7de4baddb90a488d0a9f88e32e29c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de956bd529b6933ecf7d3c6c731052dc') in 0.0074036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Tanks/Art/Models/Environment/Rocks03.fbx
+  artifactKey: Guid(fd0d7091fe3f1d24e81321bc2e4209df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Models/Environment/Rocks03.fbx using Guid(fd0d7091fe3f1d24e81321bc2e4209df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c75edae471a197f5215ca87d83e2351f') in 0.0060796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Tanks/Art/Materials/PowerUps/Powerup_SheildLight.mat
+  artifactKey: Guid(b873151825e6b084490728ff7226883e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Materials/PowerUps/Powerup_SheildLight.mat using Guid(b873151825e6b084490728ff7226883e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd950e97bc51631d436d9421d24e37320') in 0.0034173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Tanks/Scripts/Shell/ShellExplosion.cs
+  artifactKey: Guid(af9894b7bced3a04c870ade3c621f94e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Scripts/Shell/ShellExplosion.cs using Guid(af9894b7bced3a04c870ade3c621f94e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac77f0315d9f01aa46872608b337a4a9') in 0.0030024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/_Tanks/Scripts/Tank/PowerUpDetector.cs
+  artifactKey: Guid(613fdb3d456dfe940b92c5fe402374b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Scripts/Tank/PowerUpDetector.cs using Guid(613fdb3d456dfe940b92c5fe402374b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52a02586b2b557e6de2a8b7844f0a23b') in 0.0030082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Tanks/Art/Materials/Environment/White.mat
+  artifactKey: Guid(c0d660c0333c4224098a02ecd84d6232) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Materials/Environment/White.mat using Guid(c0d660c0333c4224098a02ecd84d6232) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e84b65ece60b08bea8f0c9e1ee9ddded') in 0.0035064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Tanks/Art/Sprites/Aim Arrow_Purple.png
+  artifactKey: Guid(a7f795a5044b947aa81a57a339319526) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Sprites/Aim Arrow_Purple.png using Guid(a7f795a5044b947aa81a57a339319526) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35260032d257ae55949682ecc5f3cd93') in 0.0058353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Tanks/Art/Materials/Environment/Building.mat
+  artifactKey: Guid(19ac713c0cb29a84db9ed6bb394ad8f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Materials/Environment/Building.mat using Guid(19ac713c0cb29a84db9ed6bb394ad8f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '936890286fb2ce96572b6c1e0a66ad08') in 0.0038529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Tanks/Art/Materials/Environment/Brown.mat
+  artifactKey: Guid(65b34bd0b696fd64c809daa8ff1aac63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Materials/Environment/Brown.mat using Guid(65b34bd0b696fd64c809daa8ff1aac63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67b9e12115e19dbe0a1884afcc43a81f') in 0.003138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/_Tanks/Art/Models/PowerUps/MovementSpeed.FBX
+  artifactKey: Guid(1edba0bd458db1f4b89951898b2738ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Models/PowerUps/MovementSpeed.FBX using Guid(1edba0bd458db1f4b89951898b2738ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a00fd70475c80a1ab9a9fd2ebb6f067a') in 0.0054967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/_Tanks/Art/Materials/Environment/WaterJungle.mat
+  artifactKey: Guid(a57fb2216c4e65b48a6681860d5210af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Materials/Environment/WaterJungle.mat using Guid(a57fb2216c4e65b48a6681860d5210af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1cca7c7e94820a2028075069103b9e12') in 0.0035642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Tanks/Prefabs/Environment/Jungle/ClumpRockBig.prefab
+  artifactKey: Guid(edcbd88adcc683841bbf44bc253e801f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/Environment/Jungle/ClumpRockBig.prefab using Guid(edcbd88adcc683841bbf44bc253e801f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b18df868ec53c33ce34dc912b6272ca5') in 0.0108584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 92
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Tanks/Prefabs/Environment/Jungle/CliffJungle.prefab
+  artifactKey: Guid(f679227769a543240a446c66acbf0f7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/Environment/Jungle/CliffJungle.prefab using Guid(f679227769a543240a446c66acbf0f7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc2ffff2c3e8ccc970b8f8b216bff92c') in 0.005235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 153
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/_Tanks/Prefabs/Environment/Desert/BuildingSand04.prefab
+  artifactKey: Guid(61901b0404133e643ab709af9e88f7e2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/Environment/Desert/BuildingSand04.prefab using Guid(61901b0404133e643ab709af9e88f7e2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a47bd4c5a21c4103520fc8a0ec39155') in 0.0070497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 75
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/_Tanks/Prefabs/Environment/Jungle/Hippo.prefab
+  artifactKey: Guid(5aea38e3f9680354698091b32ca6c673) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/Environment/Jungle/Hippo.prefab using Guid(5aea38e3f9680354698091b32ca6c673) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1105fd8dc62a6b086cd5a2e73508783e') in 0.0051529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Tanks/Prefabs/Environment/Desert/CliffSand.prefab
+  artifactKey: Guid(cadd446d34065a546a1b13ed429dabe6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/Environment/Desert/CliffSand.prefab using Guid(cadd446d34065a546a1b13ed429dabe6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79961c394450a22dae6128aee5a3ed10') in 0.0066808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Tanks/Prefabs/Environment/Desert/RocksSand02.prefab
+  artifactKey: Guid(0fed5528bc1165245a0b811f49fe9d89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/Environment/Desert/RocksSand02.prefab using Guid(0fed5528bc1165245a0b811f49fe9d89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5bdeeee917b1d9c199fb45eb397383b') in 0.0033945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Tanks/Prefabs/Environment/Jungle/Bush02.prefab
+  artifactKey: Guid(10ca0629695e5834186dcb7a64bb04bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/Environment/Jungle/Bush02.prefab using Guid(10ca0629695e5834186dcb7a64bb04bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5813f35662d38935e95c5247e356faeb') in 0.0042072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Tanks/Prefabs/Environment/Desert/DirectionalLightSand.prefab
+  artifactKey: Guid(90e734f5cb469a9448e8e5f0e51ad1ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/Environment/Desert/DirectionalLightSand.prefab using Guid(90e734f5cb469a9448e8e5f0e51ad1ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84d877a932c4ce8cf92fcf28ba5f7aec') in 0.018801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/_Tanks/Prefabs/Environment/Jungle/PumpJackJungle.prefab
+  artifactKey: Guid(665a123771d13424fa5cdf7c8dadb905) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/Environment/Jungle/PumpJackJungle.prefab using Guid(665a123771d13424fa5cdf7c8dadb905) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00c29f2b1d192ea063e440a6ac1e9266') in 0.0075155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Tanks/Prefabs/Environment/Jungle/ClifftreesJungle.prefab
+  artifactKey: Guid(f6e2e65b9015b7047af48355c40bd9b6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/Environment/Jungle/ClifftreesJungle.prefab using Guid(f6e2e65b9015b7047af48355c40bd9b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '303fa859fd003e52b1cea4f758a89044') in 0.010424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 128
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Tanks/Prefabs/Environment/Jungle/HippoMud02.prefab
+  artifactKey: Guid(6bce97c8568db2249a2001b6bc4dcb9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/Environment/Jungle/HippoMud02.prefab using Guid(6bce97c8568db2249a2001b6bc4dcb9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e4d62c5861234d8c9641630dc91459a') in 0.0050049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 128
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Tanks/Prefabs/Environment/Jungle/Grass02.prefab
+  artifactKey: Guid(33f78555ecf5336469c58c14a3d1dc1d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/Environment/Jungle/Grass02.prefab using Guid(33f78555ecf5336469c58c14a3d1dc1d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '795620d2285693564550e1b6d0985f1a') in 0.0046834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/_Tanks/Prefabs/Environment/Jungle/PalmTree03.prefab
+  artifactKey: Guid(e428d6bcbfd678b4b899b1d4ea6b78e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/Environment/Jungle/PalmTree03.prefab using Guid(e428d6bcbfd678b4b899b1d4ea6b78e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e6484e4664439c3e41b4504e0acf9f0') in 0.0049487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Tanks/Prefabs/PowerUps/EnhancedShooting.prefab
+  artifactKey: Guid(fc7b7f2ea1b8e2949a71217d6d42bbfb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/PowerUps/EnhancedShooting.prefab using Guid(fc7b7f2ea1b8e2949a71217d6d42bbfb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78264801dffb2285e4b99a062032d833') in 0.0104123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Tanks/Art/Models/Environment/Column02.FBX
+  artifactKey: Guid(74d835b756ff5654f8060c76cbcb4e19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Art/Models/Environment/Column02.FBX using Guid(74d835b756ff5654f8060c76cbcb4e19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b1b193e30b3b0cdceac937311fedb2e') in 0.0056312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023680 seconds.
+  path: Assets/_Tanks/Prefabs/Environment/Moon/BuildingMoon02.prefab
+  artifactKey: Guid(492adbf66171b8a4883446aa1a644c46) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/Environment/Moon/BuildingMoon02.prefab using Guid(492adbf66171b8a4883446aa1a644c46) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '578b0fa2165a449697bda1e3f05f4095') in 0.0079486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Tanks/Settings/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Settings/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3cd082821a918536882f9fab423e39c') in 0.0080467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Tanks/Settings/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Settings/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aaf775caa58d7ca65a992bfc6503db92') in 0.0050753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Tanks/Prefabs/PowerUps/Indicators/EnhanchedShootingIndicator.prefab
+  artifactKey: Guid(31d4fd85336b5254b9fc66949e915227) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/PowerUps/Indicators/EnhanchedShootingIndicator.prefab using Guid(31d4fd85336b5254b9fc66949e915227) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0115342dbef9408f02bff8144329a0c') in 0.004415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Tanks/Settings/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Settings/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ebc936054079feb33f01ffa08bb283de') in 0.003321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Tanks/Prefabs/Environment/Moon/CratorsMoon01.prefab
+  artifactKey: Guid(0925c23a430e8964aa090a5fabe502c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/Environment/Moon/CratorsMoon01.prefab using Guid(0925c23a430e8964aa090a5fabe502c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f496d6d18cb0d198dcef98da2dffebb') in 0.004227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Tanks/Tutorial_Demo/Demo_Prefabs/Demo_Explosions/Demo_CompleteShell Variant_Large.prefab
+  artifactKey: Guid(eb5f44e0e03874d63a3063b1423c65ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Tutorial_Demo/Demo_Prefabs/Demo_Explosions/Demo_CompleteShell Variant_Large.prefab using Guid(eb5f44e0e03874d63a3063b1423c65ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38bcd707e79c7694bfe4d9646d0dc7f7') in 0.0189325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Tanks/Settings/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Settings/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6366d11201864098771740abcb89165') in 0.00316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Tanks/Prefabs/Environment/Moon/CraterMoon01.prefab
+  artifactKey: Guid(1bc9aad59a33e2540b1452b2d156accb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/Environment/Moon/CraterMoon01.prefab using Guid(1bc9aad59a33e2540b1452b2d156accb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11d570e06a75db54a31287670badcdb3') in 0.0044922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/_Tanks/Settings/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Settings/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '701c2b08dd2bf84ee863de145a94ff98') in 0.003088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/_Tanks/Settings/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Settings/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f88b40941fd044ea4d65e7725287c18') in 0.0112097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Tanks/Prefabs/Levels/Levels_Empty/LevelMoon_Empty.prefab
+  artifactKey: Guid(ac60d89986f6642c28217546bd77f2e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/Levels/Levels_Empty/LevelMoon_Empty.prefab using Guid(ac60d89986f6642c28217546bd77f2e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f13d9fc807bef58c82456453e0a182d') in 0.0039107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 111
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Tanks/Prefabs/Environment/Moon/DunesMoon02.prefab
+  artifactKey: Guid(3f751e07837b5044a850c6d98551cb10) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/Environment/Moon/DunesMoon02.prefab using Guid(3f751e07837b5044a850c6d98551cb10) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '789013add7b7fb4cf0f7fa0eba20f044') in 0.0047285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Tanks/Prefabs/Environment/Moon/GroundMoon.prefab
+  artifactKey: Guid(d90ea149be1e49d49bdb723591b075d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/Environment/Moon/GroundMoon.prefab using Guid(d90ea149be1e49d49bdb723591b075d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6873aea62c6d05a2bfaf8969db856505') in 0.0046084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Tanks/Settings/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader
+  artifactKey: Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Settings/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader using Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0398a0205cb0b6081b18c59e950a9558') in 0.0028542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Tanks/Prefabs/Environment/Moon/RuinsMoon.prefab
+  artifactKey: Guid(7bf356bbd7817924ab583d3362420429) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/Environment/Moon/RuinsMoon.prefab using Guid(7bf356bbd7817924ab583d3362420429) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc9c7b394bf6cc04f9c8fa57336ee492') in 0.0055935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Tanks/Settings/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Settings/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07383ea65610faf37fa8b95cbe5361aa') in 0.0026173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Tanks/Prefabs/PowerUps/Indicators/EnhancedShellIndicator.prefab
+  artifactKey: Guid(7be7fa772e491c5498361d62e8af3942) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Prefabs/PowerUps/Indicators/EnhancedShellIndicator.prefab using Guid(7be7fa772e491c5498361d62e8af3942) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e735a1aec1341356494062dec97832d') in 0.0044134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Tanks/Tutorial_Demo/Demo_Prefabs/Demo_Tanks/Demo_Tank - ATV Variant.prefab
+  artifactKey: Guid(e8a208e9857544b0292cc3d24b0106b6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Tutorial_Demo/Demo_Prefabs/Demo_Tanks/Demo_Tank - ATV Variant.prefab using Guid(e8a208e9857544b0292cc3d24b0106b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4b3ee7f31a13997fb10cc75973c0d2e') in 0.0756225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 333
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Tanks/Tutorial_Demo/Demo_Scenes/Demo_Scene_Data/Demo_NavMeshes/NavMesh-GroundJungle.asset
+  artifactKey: Guid(c12916cdc9c34dd42be20583c5c68a03) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Tanks/Tutorial_Demo/Demo_Scenes/Demo_Scene_Data/Demo_NavMeshes/NavMesh-GroundJungle.asset using Guid(c12916cdc9c34dd42be20583c5c68a03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e2c237e854e04b8d3e0be22a8b69d9b') in 0.0035847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.475 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.455 seconds
+Domain Reload Profiling: 931ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (275ms)
+		LoadAssemblies (223ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (105ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (455ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (324ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (216ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6080 unused Assets / (5.9 MB). Loaded Objects now: 6812.
+Memory consumption went from 167.2 MB to 161.3 MB.
+Total: 10.431400 ms (FindLiveObjects: 0.849900 ms CreateObjectMapping: 0.638100 ms MarkObjects: 5.527200 ms  DeleteObjects: 3.415000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.467 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.446 seconds
+Domain Reload Profiling: 914ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (225ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (105ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (446ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (328ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6079 unused Assets / (5.7 MB). Loaded Objects now: 6814.
+Memory consumption went from 165.5 MB to 159.8 MB.
+Total: 8.615600 ms (FindLiveObjects: 0.558000 ms CreateObjectMapping: 0.570800 ms MarkObjects: 5.158300 ms  DeleteObjects: 2.326700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
